@@ -18,12 +18,15 @@ def install_building_dependencies(externals_directory):
     externals_list = ['irods-externals-cmake3.11.4-0',
                       'irods-externals-avro1.9.0-0',
                       'irods-externals-boost1.67.0-0',
+                      'irods-externals-catch22.3.0-0',
                       'irods-externals-clang-runtime6.0-0',
                       'irods-externals-clang6.0-0',
                       'irods-externals-cppzmq4.2.3-0',
+                      'irods-externals-fmt6.1.2-1',
                       'irods-externals-json3.7.3-0',
                       'irods-externals-libarchive3.3.2-1',
-                      'irods-externals-libs3a30e55e8-1',
+                      'irods-externals-libs359b62371-0',
+                      'irods-externals-nanodbc2.13.0-0',
                       'irods-externals-zeromq4-14.1.6-0']
     if externals_directory == 'None' or externals_directory is None:
         irods_python_ci_utilities.install_irods_core_dev_repository()
