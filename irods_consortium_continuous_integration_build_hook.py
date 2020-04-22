@@ -25,7 +25,7 @@ def install_building_dependencies(externals_directory):
                       'irods-externals-fmt6.1.2-1',
                       'irods-externals-json3.7.3-0',
                       'irods-externals-libarchive3.3.2-1',
-                      'irods-externals-libs359b62371-0',
+                      'irods-externals-libs3a30e55e8-1',
                       'irods-externals-nanodbc2.13.0-0',
                       'irods-externals-zeromq4-14.1.6-0']
     if externals_directory == 'None' or externals_directory is None:
